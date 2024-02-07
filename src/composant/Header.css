@@ -65,17 +65,6 @@
     border-radius: 15px;
   }
   
-  .image-container p {
-    position: absolute;
-    top: 85%;
-    left: 90%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-    text-align: center;
-    z-index: 2;
-  }
   .image-container h1 {
     position: absolute;
     top: 40%;

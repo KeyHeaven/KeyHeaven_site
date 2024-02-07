@@ -22,7 +22,8 @@ const Clock: React.FC = () => {
     return `${hours}:${minutes}:${seconds}`;
   };
 
-  return <div>{formatTime(currentTime)}</div>;
+  return <div><p>    {formatTime(currentTime)}</p>
+</div>;
 };
 
 export default Clock;
