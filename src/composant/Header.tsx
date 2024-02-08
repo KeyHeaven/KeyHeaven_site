@@ -15,8 +15,7 @@ const Header: React.FC = () => {
         <h1>Des nouveautés chaques semaines</h1>
        <p><Clock/></p>
       </div>
-      <div className="big_container">
-        <div className="mini_img_container">
+      <div className="mini_img_container">
           <p>KeyHeaven™</p>
           <p className="bigtext">
             Bienvenue dans l'univers de KeyHeaven, votre destination ultime pour
@@ -37,6 +36,7 @@ const Header: React.FC = () => {
             avec KeyHeaven.
           </p>
         </div>
+      <div className="big_container">
         <div className="container">
           <Card3D />
           <p className="textheader">

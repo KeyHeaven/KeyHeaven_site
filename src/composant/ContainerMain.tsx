@@ -74,6 +74,7 @@ const ContainerMain: React.FC = () => {
         <video src="cyber.mp4" autoPlay loop muted></video>
         <h1>Vaste choix des meilleurs jeux au meilleur prix !</h1>
       </div>
+      
     </div>
   );
 };
