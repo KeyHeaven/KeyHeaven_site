@@ -3,7 +3,6 @@ import Header from "../composant/Header";
 import ScrollToTopButton from "../composant/ScrollToTopButton";
 import ContainerMain from "../composant/ContainerMain";
 import "aos/dist/aos.css";
-import Footer from "../composant/Footer";
 import "./Homepage.css";
 
 const Homepage: React.FC = () => {
@@ -12,7 +11,6 @@ const Homepage: React.FC = () => {
       <ContainerMain />
       <Header />
       <ScrollToTopButton />
-      <Footer />
     </div>
   );
 };

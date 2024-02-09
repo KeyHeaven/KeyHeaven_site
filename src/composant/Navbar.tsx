@@ -23,13 +23,16 @@ const Navbar: React.FC = () => {
       </ul>
       <ul className="menuImportant">
         <li>
-        <Link to="/Homepage">Accueil</Link>
+          <Link to="/Homepage">Accueil</Link>
         </li>
         <li>
           <a href="#application">Application</a>
         </li>
         <li>
-        <li>   <Link to="/CGV">Conditions générales de ventes</Link></li>
+          <li>
+            {" "}
+            <Link to="/CGV">Conditions générales de ventes</Link>
+          </li>
         </li>
         <li>
           <a href="#apropos">A propos de nous</a>
