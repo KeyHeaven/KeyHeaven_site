@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,13 +23,13 @@ const Navbar: React.FC = () => {
       </ul>
       <ul className="menuImportant">
         <li>
-          <a href="#accueil">Accueil</a>
+        <Link to="/Homepage">Accueil</Link>
         </li>
         <li>
           <a href="#application">Application</a>
         </li>
         <li>
-        <li>   <a href="#application">Conditions générales de ventes</a></li>
+        <li>   <Link to="/CGV">Conditions générales de ventes</Link></li>
         </li>
         <li>
           <a href="#apropos">A propos de nous</a>
